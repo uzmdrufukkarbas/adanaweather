@@ -1,6 +1,6 @@
 # Adana Hava Durumu Uygulaması
 
-Bu uygulama, Adana'nın anlık hava durumunu ve 3 günlük tahminini gösteren bir Next.js uygulamasıdır.
+Adana'nın anlık hava durumunu ve 3 günlük tahminini gösteren Next.js uygulaması.
 
 ## Özellikler
 
@@ -9,60 +9,41 @@ Bu uygulama, Adana'nın anlık hava durumunu ve 3 günlük tahminini gösteren b
 - 📅 3 günlük hava durumu tahmini
 - 🎨 Modern ve şık kullanıcı arayüzü
 - ⚡ Otomatik güncelleme (her 10 dakikada bir)
-- 📱 Responsive tasarım (mobil uyumlu)
+- 📱 Responsive tasarım
 
 ## Vercel'e Deploy Etme
 
-### 1. Yöntem: Vercel Dashboard Üzerinden
+### GitHub üzerinden:
 
-1. GitHub hesabınıza giriş yapın ve yeni bir repository oluşturun
-2. Bu projeyi GitHub repository'nize yükleyin
-3. [Vercel](https://vercel.com)'e gidin ve GitHub hesabınızla giriş yapın
-4. "New Project" butonuna tıklayın
-5. GitHub repository'nizi seçin
-6. Framework olarak "Next.js" otomatik algılanacak
-7. "Deploy" butonuna tıklayın
+1. Bu projeyi GitHub'a yükleyin
+2. [Vercel](https://vercel.com)'e gidin
+3. "New Project" → GitHub repo'nuzu seçin
+4. "Deploy" butonuna tıklayın
 
-### 2. Yöntem: Vercel CLI ile
+### Vercel CLI ile:
 
 ```bash
-# Vercel CLI'yi yükleyin (eğer yüklü değilse)
 npm i -g vercel
-
-# Proje klasörüne gidin
-cd weather-app
-
-# Deploy edin
 vercel
 ```
 
 ## Yerel Geliştirme
 
 ```bash
-# Bağımlılıkları yükleyin
 npm install
-
-# Geliştirme sunucusunu başlatın
 npm run dev
 ```
 
-Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
+Tarayıcınızda http://localhost:3000 açın.
 
 ## Teknolojiler
 
-- **Next.js 14** - React framework
-- **TypeScript** - Tip güvenliği
-- **Tailwind CSS** - Styling
-- **Open-Meteo API** - Ücretsiz hava durumu API'si
-
-## API
-
-Uygulama, ücretsiz [Open-Meteo API](https://open-meteo.com)'sini kullanmaktadır. API anahtarına ihtiyaç yoktur.
+- Next.js 15.5.11
+- React 19
+- TypeScript
+- Tailwind CSS
+- Open-Meteo API
 
 ## Lisans
 
 MIT
-
----
-
-Geliştirici: Claude AI tarafından oluşturuldu
